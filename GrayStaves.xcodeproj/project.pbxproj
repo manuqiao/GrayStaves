@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BB115E1C011AC00093C137 /* GrayStaves.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB115D1C011AC00093C137 /* GrayStaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11651C011AC10093C137 /* GrayStaves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB115A1C011AC00093C137 /* GrayStaves.framework */; };
+		C5BB116A1C011AC10093C137 /* GrayStavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11691C011AC10093C137 /* GrayStavesTests.m */; };
+		C5BB11761C011AED0093C137 /* ScalableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11741C011AED0093C137 /* ScalableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11771C011AED0093C137 /* ScalableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11751C011AED0093C137 /* ScalableView.m */; };
+		C5BB117A1C011AFD0093C137 /* BasicStaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11781C011AFD0093C137 /* BasicStaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB117B1C011AFD0093C137 /* BasicStaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11791C011AFD0093C137 /* BasicStaveView.m */; };
+		C5BB11821C0136950093C137 /* StaveConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11811C0135FC0093C137 /* StaveConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11851C0137550093C137 /* BasicStaveComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11831C0137550093C137 /* BasicStaveComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11861C0137550093C137 /* BasicStaveComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11841C0137550093C137 /* BasicStaveComponent.m */; };
+		C5BB11881C01394E0093C137 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = C5BB11871C01394E0093C137 /* Images */; };
+		C5BB118B1C013AF60093C137 /* StaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11891C013AF60093C137 /* StaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB118C1C013AF60093C137 /* StaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB118A1C013AF60093C137 /* StaveView.m */; };
+		C5BB11991C026E4D0093C137 /* StaveDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11971C026E4D0093C137 /* StaveDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB119A1C026E4D0093C137 /* StaveDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11981C026E4D0093C137 /* StaveDocument.m */; };
+		C5BB119D1C026F990093C137 /* ClefComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB119B1C026F990093C137 /* ClefComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB119E1C026F990093C137 /* ClefComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB119C1C026F990093C137 /* ClefComponent.m */; };
+		C5BB11A21C027B500093C137 /* BarView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11A01C027B500093C137 /* BarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11A31C027B500093C137 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11A11C027B500093C137 /* BarView.m */; };
+		C5BB11C61C04F5290093C137 /* GrayStavesDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11C41C04F5290093C137 /* GrayStavesDelegate.h */; };
+		C5BB11C71C04F5290093C137 /* GrayStavesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11C51C04F5290093C137 /* GrayStavesDelegate.m */; };
+		C5BB11CF1C0511010093C137 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11CD1C0511010093C137 /* TestController.m */; };
+		C5BB11D01C0511010093C137 /* TestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5BB11CE1C0511010093C137 /* TestController.xib */; };
+		C5BB11DF1C05140D0093C137 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11DE1C05140D0093C137 /* TestAppDelegate.m */; };
+		C5BB11E21C068FB20093C137 /* NoteComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BB11E01C068FB20093C137 /* NoteComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BB11E31C068FB20093C137 /* NoteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB11E11C068FB20093C137 /* NoteComponent.m */; };
+		C5F949851C0F3B4C00FD3934 /* RestComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F949831C0F3B4C00FD3934 /* RestComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F949861C0F3B4C00FD3934 /* RestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F949841C0F3B4C00FD3934 /* RestComponent.m */; };
+		C5F9498C1C10CC6F00FD3934 /* NoteHeadComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F9498A1C10CC6F00FD3934 /* NoteHeadComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F9498D1C10CC6F00FD3934 /* NoteHeadComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9498B1C10CC6F00FD3934 /* NoteHeadComponent.m */; };
+		C5FBAB2D1C0A7D090067EBA8 /* NoteTailComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FBAB2B1C0A7D090067EBA8 /* NoteTailComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FBAB2E1C0A7D090067EBA8 /* NoteTailComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAB2C1C0A7D090067EBA8 /* NoteTailComponent.m */; };
+		C5FBAB311C0A8A710067EBA8 /* NoteControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FBAB2F1C0A8A710067EBA8 /* NoteControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FBAB321C0A8A710067EBA8 /* NoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAB301C0A8A710067EBA8 /* NoteControl.m */; };
+		C5FBAB351C0A8AC90067EBA8 /* AccidentalComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FBAB331C0A8AC90067EBA8 /* AccidentalComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FBAB361C0A8AC90067EBA8 /* AccidentalComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAB341C0A8AC90067EBA8 /* AccidentalComponent.m */; };
+		C5FBAB391C0BE6070067EBA8 /* StaveComponentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FBAB371C0BE6070067EBA8 /* StaveComponentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FBAB3A1C0BE6070067EBA8 /* StaveComponentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAB381C0BE6070067EBA8 /* StaveComponentControl.m */; };
+		C5FBAB3D1C0BEEB20067EBA8 /* KeySignatureControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FBAB3B1C0BEEB20067EBA8 /* KeySignatureControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FBAB3E1C0BEEB20067EBA8 /* KeySignatureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAB3C1C0BEEB20067EBA8 /* KeySignatureControl.m */; };
+		C5FFF6AA1C17258B004A3AB9 /* NoteConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6A81C17258B004A3AB9 /* NoteConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6AB1C17258B004A3AB9 /* NoteConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6A91C17258B004A3AB9 /* NoteConnection.m */; };
+		C5FFF6AE1C176B35004A3AB9 /* NoteConnectionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6AC1C176B35004A3AB9 /* NoteConnectionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6AF1C176B35004A3AB9 /* NoteConnectionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6AD1C176B35004A3AB9 /* NoteConnectionBar.m */; };
+		C5FFF6B31C17726B004A3AB9 /* NoteStaveLineComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6B11C17726B004A3AB9 /* NoteStaveLineComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6B41C17726B004A3AB9 /* NoteStaveLineComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6B21C17726B004A3AB9 /* NoteStaveLineComponent.m */; };
+		C5FFF6B51C177BF7004A3AB9 /* StaveMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6B01C176F81004A3AB9 /* StaveMetrics.h */; };
+		C5FFF6B81C18F46A004A3AB9 /* NoteGroupComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6B61C18F46A004A3AB9 /* NoteGroupComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6B91C18F46A004A3AB9 /* NoteGroupComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6B71C18F46A004A3AB9 /* NoteGroupComponent.m */; };
+		C5FFF6C11C19C557004A3AB9 /* BasicNoteComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6BF1C19C557004A3AB9 /* BasicNoteComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6C21C19C557004A3AB9 /* BasicNoteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6C01C19C557004A3AB9 /* BasicNoteComponent.m */; };
+		C5FFF6C51C1B5816004A3AB9 /* NoteTailFlagComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FFF6C31C1B5816004A3AB9 /* NoteTailFlagComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FFF6C61C1B5816004A3AB9 /* NoteTailFlagComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFF6C41C1B5816004A3AB9 /* NoteTailFlagComponent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5BB11661C011AC10093C137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BB11511C011AC00093C137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BB11591C011AC00093C137;
+			remoteInfo = GrayStaves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5BB115A1C011AC00093C137 /* GrayStaves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrayStaves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB115D1C011AC00093C137 /* GrayStaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayStaves.h; sourceTree = "<group>"; };
+		C5BB115F1C011AC00093C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BB11641C011AC10093C137 /* GrayStavesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrayStavesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB11691C011AC10093C137 /* GrayStavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayStavesTests.m; sourceTree = "<group>"; };
+		C5BB116B1C011AC10093C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BB11741C011AED0093C137 /* ScalableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalableView.h; sourceTree = "<group>"; };
+		C5BB11751C011AED0093C137 /* ScalableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalableView.m; sourceTree = "<group>"; };
+		C5BB11781C011AFD0093C137 /* BasicStaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicStaveView.h; sourceTree = "<group>"; };
+		C5BB11791C011AFD0093C137 /* BasicStaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStaveView.m; sourceTree = "<group>"; };
+		C5BB11811C0135FC0093C137 /* StaveConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaveConstants.h; sourceTree = "<group>"; };
+		C5BB11831C0137550093C137 /* BasicStaveComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicStaveComponent.h; sourceTree = "<group>"; };
+		C5BB11841C0137550093C137 /* BasicStaveComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStaveComponent.m; sourceTree = "<group>"; };
+		C5BB11871C01394E0093C137 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = GrayStaves/Images; sourceTree = "<group>"; };
+		C5BB11891C013AF60093C137 /* StaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaveView.h; sourceTree = "<group>"; };
+		C5BB118A1C013AF60093C137 /* StaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaveView.m; sourceTree = "<group>"; };
+		C5BB11971C026E4D0093C137 /* StaveDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaveDocument.h; sourceTree = "<group>"; };
+		C5BB11981C026E4D0093C137 /* StaveDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaveDocument.m; sourceTree = "<group>"; };
+		C5BB119B1C026F990093C137 /* ClefComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClefComponent.h; sourceTree = "<group>"; };
+		C5BB119C1C026F990093C137 /* ClefComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClefComponent.m; sourceTree = "<group>"; };
+		C5BB11A01C027B500093C137 /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		C5BB11A11C027B500093C137 /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		C5BB11C41C04F5290093C137 /* GrayStavesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayStavesDelegate.h; sourceTree = "<group>"; };
+		C5BB11C51C04F5290093C137 /* GrayStavesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayStavesDelegate.m; sourceTree = "<group>"; };
+		C5BB11CC1C0511010093C137 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		C5BB11CD1C0511010093C137 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		C5BB11CE1C0511010093C137 /* TestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
+		C5BB11D51C0511DA0093C137 /* GrayStavesUITest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrayStavesUITest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BB11DD1C05140D0093C137 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		C5BB11DE1C05140D0093C137 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		C5BB11E01C068FB20093C137 /* NoteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteComponent.h; sourceTree = "<group>"; };
+		C5BB11E11C068FB20093C137 /* NoteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteComponent.m; sourceTree = "<group>"; };
+		C5F949831C0F3B4C00FD3934 /* RestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestComponent.h; sourceTree = "<group>"; };
+		C5F949841C0F3B4C00FD3934 /* RestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestComponent.m; sourceTree = "<group>"; };
+		C5F9498A1C10CC6F00FD3934 /* NoteHeadComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteHeadComponent.h; sourceTree = "<group>"; };
+		C5F9498B1C10CC6F00FD3934 /* NoteHeadComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteHeadComponent.m; sourceTree = "<group>"; };
+		C5FBAB2B1C0A7D090067EBA8 /* NoteTailComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTailComponent.h; sourceTree = "<group>"; };
+		C5FBAB2C1C0A7D090067EBA8 /* NoteTailComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTailComponent.m; sourceTree = "<group>"; };
+		C5FBAB2F1C0A8A710067EBA8 /* NoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteControl.h; sourceTree = "<group>"; };
+		C5FBAB301C0A8A710067EBA8 /* NoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteControl.m; sourceTree = "<group>"; };
+		C5FBAB331C0A8AC90067EBA8 /* AccidentalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentalComponent.h; sourceTree = "<group>"; };
+		C5FBAB341C0A8AC90067EBA8 /* AccidentalComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentalComponent.m; sourceTree = "<group>"; };
+		C5FBAB371C0BE6070067EBA8 /* StaveComponentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaveComponentControl.h; sourceTree = "<group>"; };
+		C5FBAB381C0BE6070067EBA8 /* StaveComponentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaveComponentControl.m; sourceTree = "<group>"; };
+		C5FBAB3B1C0BEEB20067EBA8 /* KeySignatureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeySignatureControl.h; sourceTree = "<group>"; };
+		C5FBAB3C1C0BEEB20067EBA8 /* KeySignatureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeySignatureControl.m; sourceTree = "<group>"; };
+		C5FFF6A81C17258B004A3AB9 /* NoteConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteConnection.h; sourceTree = "<group>"; };
+		C5FFF6A91C17258B004A3AB9 /* NoteConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteConnection.m; sourceTree = "<group>"; };
+		C5FFF6AC1C176B35004A3AB9 /* NoteConnectionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteConnectionBar.h; sourceTree = "<group>"; };
+		C5FFF6AD1C176B35004A3AB9 /* NoteConnectionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteConnectionBar.m; sourceTree = "<group>"; };
+		C5FFF6B01C176F81004A3AB9 /* StaveMetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaveMetrics.h; sourceTree = "<group>"; };
+		C5FFF6B11C17726B004A3AB9 /* NoteStaveLineComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteStaveLineComponent.h; sourceTree = "<group>"; };
+		C5FFF6B21C17726B004A3AB9 /* NoteStaveLineComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteStaveLineComponent.m; sourceTree = "<group>"; };
+		C5FFF6B61C18F46A004A3AB9 /* NoteGroupComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteGroupComponent.h; sourceTree = "<group>"; };
+		C5FFF6B71C18F46A004A3AB9 /* NoteGroupComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteGroupComponent.m; sourceTree = "<group>"; };
+		C5FFF6BF1C19C557004A3AB9 /* BasicNoteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNoteComponent.h; sourceTree = "<group>"; };
+		C5FFF6C01C19C557004A3AB9 /* BasicNoteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNoteComponent.m; sourceTree = "<group>"; };
+		C5FFF6C31C1B5816004A3AB9 /* NoteTailFlagComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTailFlagComponent.h; sourceTree = "<group>"; };
+		C5FFF6C41C1B5816004A3AB9 /* NoteTailFlagComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTailFlagComponent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BB11561C011AC00093C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11611C011AC10093C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB11651C011AC10093C137 /* GrayStaves.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11D21C0511DA0093C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BB11501C011AC00093C137 = {
+			isa = PBXGroup;
+			children = (
+				C5BB11871C01394E0093C137 /* Images */,
+				C5BB115C1C011AC00093C137 /* GrayStaves */,
+				C5BB11681C011AC10093C137 /* GrayStavesTests */,
+				C5BB115B1C011AC00093C137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BB115B1C011AC00093C137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB115A1C011AC00093C137 /* GrayStaves.framework */,
+				C5BB11641C011AC10093C137 /* GrayStavesTests.xctest */,
+				C5BB11D51C0511DA0093C137 /* GrayStavesUITest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BB115C1C011AC00093C137 /* GrayStaves */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB115D1C011AC00093C137 /* GrayStaves.h */,
+				C5BB11C41C04F5290093C137 /* GrayStavesDelegate.h */,
+				C5BB11C51C04F5290093C137 /* GrayStavesDelegate.m */,
+				C5BB11811C0135FC0093C137 /* StaveConstants.h */,
+				C5FFF6B01C176F81004A3AB9 /* StaveMetrics.h */,
+				C5BB11971C026E4D0093C137 /* StaveDocument.h */,
+				C5BB11981C026E4D0093C137 /* StaveDocument.m */,
+				C5BB11891C013AF60093C137 /* StaveView.h */,
+				C5BB118A1C013AF60093C137 /* StaveView.m */,
+				C5BB11A01C027B500093C137 /* BarView.h */,
+				C5BB11A11C027B500093C137 /* BarView.m */,
+				C5BB119F1C026FA20093C137 /* Stave Components */,
+				C5BB11801C0135A00093C137 /* Basic Views */,
+				C5BB115F1C011AC00093C137 /* Info.plist */,
+			);
+			path = GrayStaves;
+			sourceTree = "<group>";
+		};
+		C5BB11681C011AC10093C137 /* GrayStavesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB11691C011AC10093C137 /* GrayStavesTests.m */,
+				C5BB11CC1C0511010093C137 /* TestController.h */,
+				C5BB11CD1C0511010093C137 /* TestController.m */,
+				C5BB11DD1C05140D0093C137 /* TestAppDelegate.h */,
+				C5BB11DE1C05140D0093C137 /* TestAppDelegate.m */,
+				C5BB11CE1C0511010093C137 /* TestController.xib */,
+				C5BB116B1C011AC10093C137 /* Info.plist */,
+			);
+			path = GrayStavesTests;
+			sourceTree = "<group>";
+		};
+		C5BB11801C0135A00093C137 /* Basic Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB11741C011AED0093C137 /* ScalableView.h */,
+				C5BB11751C011AED0093C137 /* ScalableView.m */,
+				C5BB11781C011AFD0093C137 /* BasicStaveView.h */,
+				C5BB11791C011AFD0093C137 /* BasicStaveView.m */,
+				C5BB11831C0137550093C137 /* BasicStaveComponent.h */,
+				C5BB11841C0137550093C137 /* BasicStaveComponent.m */,
+				C5FFF6BF1C19C557004A3AB9 /* BasicNoteComponent.h */,
+				C5FFF6C01C19C557004A3AB9 /* BasicNoteComponent.m */,
+				C5FBAB371C0BE6070067EBA8 /* StaveComponentControl.h */,
+				C5FBAB381C0BE6070067EBA8 /* StaveComponentControl.m */,
+			);
+			name = "Basic Views";
+			sourceTree = "<group>";
+		};
+		C5BB119F1C026FA20093C137 /* Stave Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB119B1C026F990093C137 /* ClefComponent.h */,
+				C5BB119C1C026F990093C137 /* ClefComponent.m */,
+				C5FBAB2F1C0A8A710067EBA8 /* NoteControl.h */,
+				C5FBAB301C0A8A710067EBA8 /* NoteControl.m */,
+				C5FBAB331C0A8AC90067EBA8 /* AccidentalComponent.h */,
+				C5FBAB341C0A8AC90067EBA8 /* AccidentalComponent.m */,
+				C5FBAB3B1C0BEEB20067EBA8 /* KeySignatureControl.h */,
+				C5FBAB3C1C0BEEB20067EBA8 /* KeySignatureControl.m */,
+				C5F949831C0F3B4C00FD3934 /* RestComponent.h */,
+				C5F949841C0F3B4C00FD3934 /* RestComponent.m */,
+				C5FFF6BA1C18F60E004A3AB9 /* Note */,
+			);
+			name = "Stave Components";
+			sourceTree = "<group>";
+		};
+		C5FFF6BA1C18F60E004A3AB9 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB11E01C068FB20093C137 /* NoteComponent.h */,
+				C5BB11E11C068FB20093C137 /* NoteComponent.m */,
+				C5FFF6B61C18F46A004A3AB9 /* NoteGroupComponent.h */,
+				C5FFF6B71C18F46A004A3AB9 /* NoteGroupComponent.m */,
+				C5F9498A1C10CC6F00FD3934 /* NoteHeadComponent.h */,
+				C5F9498B1C10CC6F00FD3934 /* NoteHeadComponent.m */,
+				C5FFF6B11C17726B004A3AB9 /* NoteStaveLineComponent.h */,
+				C5FFF6B21C17726B004A3AB9 /* NoteStaveLineComponent.m */,
+				C5FBAB2B1C0A7D090067EBA8 /* NoteTailComponent.h */,
+				C5FBAB2C1C0A7D090067EBA8 /* NoteTailComponent.m */,
+				C5FFF6C31C1B5816004A3AB9 /* NoteTailFlagComponent.h */,
+				C5FFF6C41C1B5816004A3AB9 /* NoteTailFlagComponent.m */,
+				C5FFF6A81C17258B004A3AB9 /* NoteConnection.h */,
+				C5FFF6A91C17258B004A3AB9 /* NoteConnection.m */,
+				C5FFF6AC1C176B35004A3AB9 /* NoteConnectionBar.h */,
+				C5FFF6AD1C176B35004A3AB9 /* NoteConnectionBar.m */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5BB11571C011AC00093C137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB115E1C011AC00093C137 /* GrayStaves.h in Headers */,
+				C5BB118B1C013AF60093C137 /* StaveView.h in Headers */,
+				C5BB11821C0136950093C137 /* StaveConstants.h in Headers */,
+				C5BB11761C011AED0093C137 /* ScalableView.h in Headers */,
+				C5BB11851C0137550093C137 /* BasicStaveComponent.h in Headers */,
+				C5FFF6C11C19C557004A3AB9 /* BasicNoteComponent.h in Headers */,
+				C5FBAB391C0BE6070067EBA8 /* StaveComponentControl.h in Headers */,
+				C5BB11E21C068FB20093C137 /* NoteComponent.h in Headers */,
+				C5FFF6B81C18F46A004A3AB9 /* NoteGroupComponent.h in Headers */,
+				C5FBAB2D1C0A7D090067EBA8 /* NoteTailComponent.h in Headers */,
+				C5FFF6C51C1B5816004A3AB9 /* NoteTailFlagComponent.h in Headers */,
+				C5F9498C1C10CC6F00FD3934 /* NoteHeadComponent.h in Headers */,
+				C5FFF6AE1C176B35004A3AB9 /* NoteConnectionBar.h in Headers */,
+				C5FFF6AA1C17258B004A3AB9 /* NoteConnection.h in Headers */,
+				C5FFF6B31C17726B004A3AB9 /* NoteStaveLineComponent.h in Headers */,
+				C5FBAB351C0A8AC90067EBA8 /* AccidentalComponent.h in Headers */,
+				C5F949851C0F3B4C00FD3934 /* RestComponent.h in Headers */,
+				C5FBAB3D1C0BEEB20067EBA8 /* KeySignatureControl.h in Headers */,
+				C5FBAB311C0A8A710067EBA8 /* NoteControl.h in Headers */,
+				C5BB119D1C026F990093C137 /* ClefComponent.h in Headers */,
+				C5BB11C61C04F5290093C137 /* GrayStavesDelegate.h in Headers */,
+				C5BB11A21C027B500093C137 /* BarView.h in Headers */,
+				C5BB11991C026E4D0093C137 /* StaveDocument.h in Headers */,
+				C5FFF6B51C177BF7004A3AB9 /* StaveMetrics.h in Headers */,
+				C5BB117A1C011AFD0093C137 /* BasicStaveView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5BB11591C011AC00093C137 /* GrayStaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB116E1C011AC10093C137 /* Build configuration list for PBXNativeTarget "GrayStaves" */;
+			buildPhases = (
+				C5BB11551C011AC00093C137 /* Sources */,
+				C5BB11561C011AC00093C137 /* Frameworks */,
+				C5BB11571C011AC00093C137 /* Headers */,
+				C5BB11581C011AC00093C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrayStaves;
+			productName = GrayStaves;
+			productReference = C5BB115A1C011AC00093C137 /* GrayStaves.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5BB11631C011AC10093C137 /* GrayStavesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB11711C011AC10093C137 /* Build configuration list for PBXNativeTarget "GrayStavesTests" */;
+			buildPhases = (
+				C5BB11601C011AC10093C137 /* Sources */,
+				C5BB11611C011AC10093C137 /* Frameworks */,
+				C5BB11621C011AC10093C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BB11671C011AC10093C137 /* PBXTargetDependency */,
+			);
+			name = GrayStavesTests;
+			productName = GrayStavesTests;
+			productReference = C5BB11641C011AC10093C137 /* GrayStavesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5BB11D41C0511DA0093C137 /* GrayStavesUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BB11DA1C0511DA0093C137 /* Build configuration list for PBXNativeTarget "GrayStavesUITest" */;
+			buildPhases = (
+				C5BB11D11C0511DA0093C137 /* Sources */,
+				C5BB11D21C0511DA0093C137 /* Frameworks */,
+				C5BB11D31C0511DA0093C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrayStavesUITest;
+			productName = GrayStavesUITest;
+			productReference = C5BB11D51C0511DA0093C137 /* GrayStavesUITest.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BB11511C011AC00093C137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thomas Gray";
+				TargetAttributes = {
+					C5BB11591C011AC00093C137 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C5BB11631C011AC10093C137 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C5BB11D41C0511DA0093C137 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C5BB11541C011AC00093C137 /* Build configuration list for PBXProject "GrayStaves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5BB11501C011AC00093C137;
+			productRefGroup = C5BB115B1C011AC00093C137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BB11591C011AC00093C137 /* GrayStaves */,
+				C5BB11631C011AC10093C137 /* GrayStavesTests */,
+				C5BB11D41C0511DA0093C137 /* GrayStavesUITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BB11581C011AC00093C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB11881C01394E0093C137 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11621C011AC10093C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB11D01C0511010093C137 /* TestController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11D31C0511DA0093C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BB11551C011AC00093C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB119A1C026E4D0093C137 /* StaveDocument.m in Sources */,
+				C5FFF6C61C1B5816004A3AB9 /* NoteTailFlagComponent.m in Sources */,
+				C5BB118C1C013AF60093C137 /* StaveView.m in Sources */,
+				C5FFF6B41C17726B004A3AB9 /* NoteStaveLineComponent.m in Sources */,
+				C5BB11A31C027B500093C137 /* BarView.m in Sources */,
+				C5FFF6AF1C176B35004A3AB9 /* NoteConnectionBar.m in Sources */,
+				C5FBAB3A1C0BE6070067EBA8 /* StaveComponentControl.m in Sources */,
+				C5FBAB2E1C0A7D090067EBA8 /* NoteTailComponent.m in Sources */,
+				C5BB11C71C04F5290093C137 /* GrayStavesDelegate.m in Sources */,
+				C5BB11861C0137550093C137 /* BasicStaveComponent.m in Sources */,
+				C5BB11771C011AED0093C137 /* ScalableView.m in Sources */,
+				C5FBAB361C0A8AC90067EBA8 /* AccidentalComponent.m in Sources */,
+				C5FFF6C21C19C557004A3AB9 /* BasicNoteComponent.m in Sources */,
+				C5F9498D1C10CC6F00FD3934 /* NoteHeadComponent.m in Sources */,
+				C5F949861C0F3B4C00FD3934 /* RestComponent.m in Sources */,
+				C5FFF6B91C18F46A004A3AB9 /* NoteGroupComponent.m in Sources */,
+				C5FFF6AB1C17258B004A3AB9 /* NoteConnection.m in Sources */,
+				C5BB117B1C011AFD0093C137 /* BasicStaveView.m in Sources */,
+				C5FBAB3E1C0BEEB20067EBA8 /* KeySignatureControl.m in Sources */,
+				C5BB11E31C068FB20093C137 /* NoteComponent.m in Sources */,
+				C5BB119E1C026F990093C137 /* ClefComponent.m in Sources */,
+				C5FBAB321C0A8A710067EBA8 /* NoteControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11601C011AC10093C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB11DF1C05140D0093C137 /* TestAppDelegate.m in Sources */,
+				C5BB116A1C011AC10093C137 /* GrayStavesTests.m in Sources */,
+				C5BB11CF1C0511010093C137 /* TestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BB11D11C0511DA0093C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5BB11671C011AC10093C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BB11591C011AC00093C137 /* GrayStaves */;
+			targetProxy = C5BB11661C011AC10093C137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5BB116C1C011AC10093C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5BB116D1C011AC10093C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5BB116F1C011AC10093C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = GrayStaves/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5BB11701C011AC10093C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = GrayStaves/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5BB11721C011AC10093C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GrayStavesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStavesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BB11731C011AC10093C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GrayStavesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStavesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5BB11DB1C0511DA0093C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GrayStavesUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStavesUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BB11DC1C0511DA0093C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GrayStavesUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gray.GrayStavesUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BB11541C011AC00093C137 /* Build configuration list for PBXProject "GrayStaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB116C1C011AC10093C137 /* Debug */,
+				C5BB116D1C011AC10093C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BB116E1C011AC10093C137 /* Build configuration list for PBXNativeTarget "GrayStaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB116F1C011AC10093C137 /* Debug */,
+				C5BB11701C011AC10093C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BB11711C011AC10093C137 /* Build configuration list for PBXNativeTarget "GrayStavesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB11721C011AC10093C137 /* Debug */,
+				C5BB11731C011AC10093C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BB11DA1C0511DA0093C137 /* Build configuration list for PBXNativeTarget "GrayStavesUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BB11DB1C0511DA0093C137 /* Debug */,
+				C5BB11DC1C0511DA0093C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BB11511C011AC00093C137 /* Project object */;
+}
